@@ -1,5 +1,5 @@
 import pygame
-from Line import Line
+from square import Line
 
 pygame.init()
 
