@@ -10,7 +10,7 @@ a = True
 
 
 
-def Line():
+def square():
     while 1:
         for event in pygame.event.get():
             pos = pygame.mouse.get_pos()
