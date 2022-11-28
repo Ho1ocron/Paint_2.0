@@ -1,5 +1,5 @@
 import pygame
-from square import square
+import square
 
 pygame.init()
 
@@ -15,4 +15,4 @@ while running:
             running = False
             pygame.quit()
             exit()
-        Line() #: Создание квадратов за мышкой
+        square.square() #: Создание квадратов за мышкой
